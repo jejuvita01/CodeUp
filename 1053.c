@@ -4,10 +4,10 @@
 
 int main(void)
 {
-	int a, b;
+	int b;
 
-	scanf("%d%d", &a, &b);
-	printf("%d", !a && !b);
+	scanf("%d", &b);
+	printf("%d", !b);
 
 	return 0;
 }
